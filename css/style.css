@@ -1,0 +1,128 @@
+/* COMMON CSS STARTS HERE====================================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto&display=swap');
+:root {
+    --primaryFont: 'Josefin Sans', sans-serif;
+    --secondaryFont: 'Roboto', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--primaryFont);
+    background-color: rgb(255, 255, 255);
+}
+h1,h2,h3,h4,h5,h6,span,paragraph,ol,ul {
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* COMMON CSS ENDS HERE======================================================================================== */
+
+
+/* LATEST NEWS STARTS HERE */
+#latestNews {
+    
+}
+#latestNews h2 {
+    color: #11161E;
+    text-align: center;
+    font-family: var(--primaryFont);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+}
+#latestNews .slickSlider {
+
+}
+#latestNews .slickSlider .motherCard {
+    padding: 10px 25px;
+}
+#latestNews .slickSlider .motherCard .childCard {
+    height: 366px;
+    padding: 0;
+    padding: 10px;
+}
+#latestNews .slickSlider .motherCard .childCard .cardCnt {
+    padding: 10px;
+    border: red;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#latestNews .slickSlider .motherCard .childCard .cardCnt:hover a,
+#latestNews .slickSlider .motherCard .childCard .cardCnt:hover .text1 {
+    color: #FF6F61;
+}
+#latestNews .slickSlider .motherCard .childCard .cardCnt img {
+    width: 100%;
+}
+#latestNews .slickSlider .motherCard .childCard .cardCnt .text1 {
+    display: block;
+    color: #11161E;
+    font-family: var(--primaryFont);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+#latestNews .slickSlider .motherCard .childCard .cardCnt .text2 {
+    display: block;
+    color: #444;
+    font-family: var(--secondaryFont);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+#latestNews .slickSlider .motherCard .childCard .cardCnt a {
+    color: #444;
+    font-family: var(--primaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    transition: 0.3s ease;
+}
+#latestNews .slickSlider .motherCard .childCard .cardCnt a .icon {
+    font-size: 13px;
+}
+#latestNews .slickSlider .motherCard .childCard .cardCnt .text3 {
+    color: #444;
+    font-family: var(--primaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 33px;
+    margin-bottom: 12px;
+}
+#latestNews .slickSlider ul {
+    text-align: center;
+}
+#latestNews .slickSlider ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+#latestNews .slickSlider ul li button {
+    width: 20px;
+    height: 10px;
+    color: transparent;
+    background-color: #FF6F61;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+#latestNews .slickSlider ul .slick-active button {
+    background-color: #11161E;
+    width: 60px;
+}
+/* LATEST NEWS ENDS HERE */
